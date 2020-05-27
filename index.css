@@ -15,3 +15,28 @@
 main {
     padding-top: 100px;
 }
+
+#projects-list {
+    display: flex;
+}
+
+.project-card {
+    max-width: 310px;
+    height: 310px;
+    border: 1px solid black;
+    list-style: none;
+}
+
+.project-title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 150px;
+}
