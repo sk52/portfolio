@@ -17,6 +17,10 @@
     list-style: none;
 }
 
+#nav-list li {
+    display: inline;
+}
+
 main {
     padding-top: 100px;
 }
