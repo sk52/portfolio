@@ -47,6 +47,7 @@ h1 {
 
 #nav-list li {
     display: inline;
+    margin: 0 5px;
 }
 
 main {
