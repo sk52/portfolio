@@ -1,9 +1,23 @@
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 #welcome-section {
     height: calc(100vh - 100px);
+}
+
+#projects {
+    height: calc(100vh - 100px);
+}
+
+.anchor {
+    margin-top: -100px;
+    padding-top: 100px;
+}
+
+h1 {
+    padding-top: 10px;
 }
 
 #nav-container {
