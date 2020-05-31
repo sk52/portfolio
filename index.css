@@ -54,12 +54,19 @@ main {
     padding-top: 100px;
 }
 
+#projects-title {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 #projects-list {
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
-    align-content: center;
+    justify-content: center;
 }
 
 .project-card {
@@ -67,6 +74,7 @@ main {
     height: 310px;
     border: 1px solid black;
     list-style: none;
+    margin: 5px;
 }
 
 .project-title {
