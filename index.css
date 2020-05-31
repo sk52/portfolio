@@ -56,10 +56,14 @@ main {
 
 #projects-list {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    align-content: center;
 }
 
 .project-card {
-    max-width: 310px;
+    width: 310px;
     height: 310px;
     border: 1px solid black;
     list-style: none;
