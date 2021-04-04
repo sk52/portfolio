@@ -1,90 +1,251 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <script src="https://kit.fontawesome.com/5ae3c34a65.js" crossorigin="anonymous"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Samuel King - Software Engineer</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
-        <link rel="manifest" href="public/site.webmanifest">
-    </head>
-    <body>
-        <header>
-            <nav id="nav-container">
-                <h1 id="nav-title">Samuel King Portfolio</h1>
-                <ul id="nav-list">
-                    <li><a href="#welcome-section">Welcome</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="anchor" id="welcome-section">
-                <div id="welcome-text">
-                <h1>Welcome to my Portfolio</h1><br>
-                <p>I am a Software Engineer based in London.</p><br>
-                <p id="profile-link">Please feel free to check out my <a href="https://github.com/sk52" target="_blank">GitHub</a> account.</p><br>
-                </div>
-            </section>
-            <section class="anchor" id="projects">
-                <h1 id="projects-title">Projects</h1>
-                <ul id="projects-list">
-                    <li class="project-card">
-                        <h3 class="project-title">Portfolio</h3>
-                        <img class="project-image" src="public/portfolio.png" alt="portfolio"> 
-                        <p class="project-info">A portfolio site based on user stories from FreeCodeCamp, displaying some examples of my work. Plain HTML5 and CSS3. Deployed to GitHub Pages.</p>
-                        <div class="project-icons-container">
-                            <a class="project-icon-user" title="Solo project"><i class="fas fa-user"></i></a>
-                            <a class="project-icon" title="View source code" href="https://github.com/sk52/portfolio" target="_blank"><i class="fas fa-file-code"></i></a>
-                            <a class="project-icon" title="Open application" href="#welcome-section"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </li>
-                    <li class="project-card">
-                        <h3 class="project-title">Triathlon Events</h3>
-                        <img class="project-image" src="public/triathlon.png" alt="triathlon"> 
-                        <p class="project-info">A triathlon events aggregation site. JS stack, React frontend and Node.js backend. Raw data requested from third party API in backend, simple parser implemented to serve up JSON to frontend.</p>
-                        <div class="project-icons-container">
-                            <a class="project-icon-user" title="Solo project"><i class="fas fa-user"></i></a>
-                            <a class="project-icon" title="View source code" href="https://github.com/sk52/triathlon-events" target="_blank"><i class="fas fa-file-code"></i></a>
-                            <a class="project-icon" title="Open application" href="https://triathlonevents.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </li>
-                    <li class="project-card">
-                        <h3 class="project-title">Food for Thought</h3>
-                        <img class="project-image" src="public/foodforthought.png" alt="food-for-thought"> 
-                        <p class="project-info">A recipe generator based on ingredients input. JS stack using React and Node.js. TravisCI for continuous integration, deployed to Heroku. Group project in team of 5, from ideation to delivery in 1 week.</p>
-                        <div class="project-icons-container">
-                            <a class="project-icon-user" title="Group project"><i class="fas fa-users"></i></a>
-                            <a class="project-icon" title="View source code" href="https://github.com/sk52/food-for-thought" target="_blank"><i class="fas fa-file-code"></i></a>
-                            <a class="project-icon" title="Open application" href="https://foodforthought-makers.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </li>
-                    <li class="project-card">
-                        <h3 class="project-title">Acebook</h3>
-                        <img class="project-image" src="public/acebook.png" alt="acebook"> 
-                        <p class="project-info">A social media site where users can share their thoughts. Ruby on Rails application with PostgreSQL. TravisCI for continuous integration, deployed to Heroku. 5 day group project.</p>
-                        <div class="project-icons-container">
-                            <a class="project-icon-user" title="Group project"><i class="fas fa-users"></i></a>
-                            <a class="project-icon" title="View source code" href="https://github.com/rahulshah7/acebook-409ers" target="_blank"><i class="fas fa-file-code"></i></a>
-                            <a class="project-icon" title="Open application" href="https://acebook-409ers.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </li>
-                    <li class="project-card">
-                        <h3 class="project-title">Snake</h3>
-                        <img class="project-image" src="public/snake.png" alt="snake"> 
-                        <p class="project-info">A simple Snake game built following the <a href="https://youtu.be/QTcIXok9wNY" target="_blank">Web Dev Simplified</a> YouTube video. Built using HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
-                        <div class="project-icons-container">
-                            <a class="project-icon-user" title="Solo project"><i class="fas fa-user"></i></a>
-                            <a class="project-icon" title="View source code" href="https://github.com/sk52/snake" target="_blank"><i class="fas fa-file-code"></i></a>
-                            <a class="project-icon" title="Open application" href="https://sk52.github.io/snake" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </main>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/5ae3c34a65.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samuel King - Software Engineer</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/favicon-16x16.png"
+    />
+    <link rel="manifest" href="public/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav-container">
+        <h1 id="nav-title">Samuel King Portfolio</h1>
+        <ul id="nav-list">
+          <li><a href="#welcome-section">Welcome</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="anchor" id="welcome-section">
+        <div id="welcome-text">
+          <h1>Welcome to my Portfolio</h1>
+          <br />
+          <p>I am a Software Engineer based in London.</p>
+          <br />
+          <p id="profile-link">
+            Please feel free to check out my
+            <a href="https://github.com/sk52" target="_blank">GitHub</a>
+            account.
+          </p>
+          <br />
+        </div>
+      </section>
+      <section class="anchor" id="projects">
+        <h1 id="projects-title">Projects</h1>
+        <ul id="projects-list">
+          <li class="project-card">
+            <h3 class="project-title">Gatsby Blog</h3>
+            <img class="project-image" src="public/blog.png" alt="blog" />
+            <p class="project-info">
+              A blog to document my learning. Created using a Gatsby starter
+              site, using GitHub Actions for CI/CD and deployed to GitHub Pages.
+              Next aim is to setup a headless CMS to move away from markdown
+              content.
+            </p>
+            <div class="project-icons-container">
+              <a class="project-icon-user" title="Solo project"
+                ><i class="fas fa-user"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="View source code"
+                href="https://github.com/sk52/blog"
+                target="_blank"
+                ><i class="fas fa-file-code"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="Open application"
+                href="https://sk52.github.io/blog"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </li>
+          <li class="project-card">
+            <h3 class="project-title">Portfolio</h3>
+            <img
+              class="project-image"
+              src="public/portfolio.png"
+              alt="portfolio"
+            />
+            <p class="project-info">
+              A portfolio site based on user stories from FreeCodeCamp,
+              displaying some examples of my work. Plain HTML5 and CSS3.
+              Deployed to GitHub Pages.
+            </p>
+            <div class="project-icons-container">
+              <a class="project-icon-user" title="Solo project"
+                ><i class="fas fa-user"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="View source code"
+                href="https://github.com/sk52/portfolio"
+                target="_blank"
+                ><i class="fas fa-file-code"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="Open application"
+                href="#welcome-section"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </li>
+          <li class="project-card">
+            <h3 class="project-title">Triathlon Events</h3>
+            <img
+              class="project-image"
+              src="public/triathlon.png"
+              alt="triathlon"
+            />
+            <p class="project-info">
+              A triathlon events aggregation site. JS stack, React frontend and
+              Node.js backend. Raw data requested from third party API in
+              backend, simple parser implemented to serve up JSON to frontend.
+            </p>
+            <div class="project-icons-container">
+              <a class="project-icon-user" title="Solo project"
+                ><i class="fas fa-user"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="View source code"
+                href="https://github.com/sk52/triathlon-events"
+                target="_blank"
+                ><i class="fas fa-file-code"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="Open application"
+                href="https://triathlonevents.herokuapp.com"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </li>
+          <li class="project-card">
+            <h3 class="project-title">Food for Thought</h3>
+            <img
+              class="project-image"
+              src="public/foodforthought.png"
+              alt="food-for-thought"
+            />
+            <p class="project-info">
+              A recipe generator based on ingredients input. JS stack using
+              React and Node.js. TravisCI for continuous integration, deployed
+              to Heroku. Group project in team of 5, from ideation to delivery
+              in 1 week.
+            </p>
+            <div class="project-icons-container">
+              <a class="project-icon-user" title="Group project"
+                ><i class="fas fa-users"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="View source code"
+                href="https://github.com/sk52/food-for-thought"
+                target="_blank"
+                ><i class="fas fa-file-code"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="Open application"
+                href="https://foodforthought-makers.herokuapp.com"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </li>
+          <li class="project-card">
+            <h3 class="project-title">Acebook</h3>
+            <img class="project-image" src="public/acebook.png" alt="acebook" />
+            <p class="project-info">
+              A social media site where users can share their thoughts. Ruby on
+              Rails application with PostgreSQL. TravisCI for continuous
+              integration, deployed to Heroku. 5 day group project.
+            </p>
+            <div class="project-icons-container">
+              <a class="project-icon-user" title="Group project"
+                ><i class="fas fa-users"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="View source code"
+                href="https://github.com/rahulshah7/acebook-409ers"
+                target="_blank"
+                ><i class="fas fa-file-code"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="Open application"
+                href="https://acebook-409ers.herokuapp.com"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </li>
+          <li class="project-card">
+            <h3 class="project-title">Snake</h3>
+            <img class="project-image" src="public/snake.png" alt="snake" />
+            <p class="project-info">
+              A simple Snake game built following the
+              <a href="https://youtu.be/QTcIXok9wNY" target="_blank"
+                >Web Dev Simplified</a
+              >
+              YouTube video. Built using HTML, CSS, and JavaScript. Hosted on
+              GitHub Pages.
+            </p>
+            <div class="project-icons-container">
+              <a class="project-icon-user" title="Solo project"
+                ><i class="fas fa-user"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="View source code"
+                href="https://github.com/sk52/snake"
+                target="_blank"
+                ><i class="fas fa-file-code"></i
+              ></a>
+              <a
+                class="project-icon"
+                title="Open application"
+                href="https://sk52.github.io/snake"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
